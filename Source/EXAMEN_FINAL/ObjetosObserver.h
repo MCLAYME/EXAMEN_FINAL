@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
-//#include "IObserver.h"
+#include "IObserver.h"
 
 #include "ObjetosObserver.generated.h"
 
