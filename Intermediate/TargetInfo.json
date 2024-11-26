@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "EXAMEN_FINAL",
+			"Path": "C:\\Users\\layme\\Documents\\Unreal Projects\\EXAMEN_FINAL\\Source\\EXAMEN_FINAL.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "EXAMEN_FINALEditor",
+			"Path": "C:\\Users\\layme\\Documents\\Unreal Projects\\EXAMEN_FINAL\\Source\\EXAMEN_FINALEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

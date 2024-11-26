@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\EXAMEN_FINAL.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F9739E7E-1915-45AD-80AC-2388D7C814EE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EXAMEN_FINAL.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EXAMEN_FINALEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9C5A90B1-1323-490B-BC0C-1910C9117AA0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\EXAMEN_FINAL">
+      <UniqueIdentifier>{B108CEC1-9E65-4D0D-9B20-BEE13774DA89}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EXAMEN_FINAL\EXAMEN_FINAL.Build.cs">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EXAMEN_FINAL\EXAMEN_FINAL.cpp">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EXAMEN_FINAL\EXAMEN_FINAL.h">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EXAMEN_FINAL\EXAMEN_FINALCharacter.cpp">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EXAMEN_FINAL\EXAMEN_FINALCharacter.h">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EXAMEN_FINAL\EXAMEN_FINALGameMode.cpp">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EXAMEN_FINAL\EXAMEN_FINALGameMode.h">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EXAMEN_FINAL\IObserver.cpp">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EXAMEN_FINAL\IObserver.h">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EXAMEN_FINAL\ObjetosObserver.cpp">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EXAMEN_FINAL\ObjetosObserver.h">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EXAMEN_FINAL\ObserverActor.cpp">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EXAMEN_FINAL\ObserverActor.h">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EXAMEN_FINAL\Subscriptor.cpp">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EXAMEN_FINAL\Subscriptor.h">
+      <Filter>Source\EXAMEN_FINAL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

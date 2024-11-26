@@ -1,0 +1,21 @@
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\UE4Editor\Development\EXAMEN_FINAL\Definitions.EXAMEN_FINAL.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Source\EXAMEN_FINAL\EXAMEN_FINALGameMode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\UE4Editor\Inc\EXAMEN_FINAL\EXAMEN_FINALGameMode.generated.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Source\EXAMEN_FINAL\EXAMEN_FINALCharacter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\UE4Editor\Inc\EXAMEN_FINAL\EXAMEN_FINALCharacter.generated.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Source\EXAMEN_FINAL\Subscriptor.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Source\EXAMEN_FINAL\IObserver.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\UE4Editor\Inc\EXAMEN_FINAL\IObserver.generated.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\UE4Editor\Inc\EXAMEN_FINAL\Subscriptor.generated.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Source\EXAMEN_FINAL\ObserverActor.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\UE4Editor\Inc\EXAMEN_FINAL\ObserverActor.generated.h

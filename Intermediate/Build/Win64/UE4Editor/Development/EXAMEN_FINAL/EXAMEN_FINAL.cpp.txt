@@ -1,0 +1,2 @@
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\UE4Editor\Development\EXAMEN_FINAL\Definitions.EXAMEN_FINAL.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Source\EXAMEN_FINAL\EXAMEN_FINAL.h
