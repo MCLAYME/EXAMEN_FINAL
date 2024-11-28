@@ -20,14 +20,14 @@ AEXAMEN_FINALGameMode::AEXAMEN_FINALGameMode()
 
 void AEXAMEN_FINALGameMode::BeginPlay()
 {
-	// Crear el publicador
-	ASubscriptor* MiPublicador = GetWorld()->SpawnActor<ASubscriptor>();
+    ASubscriptor* MiPublicador = GetWorld()->SpawnActor<ASubscriptor>();
 
-	// Crear el observador
-	AObjetosObserver* MiObservador = GetWorld()->SpawnActor<AObjetosObserver>();
+    AObserverActor* MiObservador = GetWorld()->SpawnActor<AObserverActor>();
 
-	// Registrar el observador
-	MiPublicador->RegistrarObserver(MiObservador);
+    if (MiPublicador && MiObservador)
+    {
+        MiPublicador->RegistrarObserver(MiObservador);
+    }
 }
 
 void AEXAMEN_FINALGameMode::Tick(float DeltaTime)
