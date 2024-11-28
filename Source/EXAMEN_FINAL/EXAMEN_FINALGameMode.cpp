@@ -5,6 +5,7 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Subscriptor.h"
 #include "ObserverActor.h"
+#include "ObjetosObserver.h"
 
 
 AEXAMEN_FINALGameMode::AEXAMEN_FINALGameMode()
@@ -23,7 +24,7 @@ void AEXAMEN_FINALGameMode::BeginPlay()
 	ASubscriptor* MiPublicador = GetWorld()->SpawnActor<ASubscriptor>();
 
 	// Crear el observador
-	AObserverActor* MiObservador = GetWorld()->SpawnActor<AObserverActor>();
+	AObjetosObserver* MiObservador = GetWorld()->SpawnActor<AObjetosObserver>();
 
 	// Registrar el observador
 	MiPublicador->RegistrarObserver(MiObservador);

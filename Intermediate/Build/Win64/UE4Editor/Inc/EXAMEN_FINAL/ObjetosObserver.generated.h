@@ -13,28 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define EXAMEN_FINAL_ObjetosObserver_generated_h
 
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_SPARSE_DATA
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_RPC_WRAPPERS
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_INCLASS_NO_PURE_DECLS \
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_SPARSE_DATA
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_RPC_WRAPPERS
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAObjetosObserver(); \
 	friend struct Z_Construct_UClass_AObjetosObserver_Statics; \
 public: \
 	DECLARE_CLASS(AObjetosObserver, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/EXAMEN_FINAL"), NO_API) \
-	DECLARE_SERIALIZER(AObjetosObserver)
+	DECLARE_SERIALIZER(AObjetosObserver) \
+	virtual UObject* _getUObject() const override { return const_cast<AObjetosObserver*>(this); }
 
 
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_INCLASS \
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAObjetosObserver(); \
 	friend struct Z_Construct_UClass_AObjetosObserver_Statics; \
 public: \
 	DECLARE_CLASS(AObjetosObserver, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/EXAMEN_FINAL"), NO_API) \
-	DECLARE_SERIALIZER(AObjetosObserver)
+	DECLARE_SERIALIZER(AObjetosObserver) \
+	virtual UObject* _getUObject() const override { return const_cast<AObjetosObserver*>(this); }
 
 
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_STANDARD_CONSTRUCTORS \
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AObjetosObserver(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AObjetosObserver) \
@@ -47,7 +49,7 @@ private: \
 public:
 
 
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_ENHANCED_CONSTRUCTORS \
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AObjetosObserver(AObjetosObserver&&); \
@@ -58,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AObjetosObserver)
 
 
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_PRIVATE_PROPERTY_OFFSET
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_12_PROLOG
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_GENERATED_BODY_LEGACY \
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_PRIVATE_PROPERTY_OFFSET
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_11_PROLOG
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_PRIVATE_PROPERTY_OFFSET \
-	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_SPARSE_DATA \
-	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_RPC_WRAPPERS \
-	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_INCLASS \
-	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_STANDARD_CONSTRUCTORS \
+	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_PRIVATE_PROPERTY_OFFSET \
+	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_SPARSE_DATA \
+	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_RPC_WRAPPERS \
+	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_INCLASS \
+	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_GENERATED_BODY \
+#define EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_PRIVATE_PROPERTY_OFFSET \
-	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_SPARSE_DATA \
-	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_INCLASS_NO_PURE_DECLS \
-	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_15_ENHANCED_CONSTRUCTORS \
+	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_PRIVATE_PROPERTY_OFFSET \
+	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_SPARSE_DATA \
+	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_INCLASS_NO_PURE_DECLS \
+	EXAMEN_FINAL_Source_EXAMEN_FINAL_ObjetosObserver_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

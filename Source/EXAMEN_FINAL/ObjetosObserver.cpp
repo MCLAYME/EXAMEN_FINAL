@@ -20,9 +20,35 @@ AObjetosObserver::AObjetosObserver()
 
 }
 
-void AObjetosObserver::Actualizar()
+void AObjetosObserver::RegistrarObserver(IIObserver* Observer)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Objeto Actualizado"));
+	if (Observer && !Observers.Contains(Observer))
+	{
+		Observers.Add(Observer);
+	}
+}
+
+void AObjetosObserver::DesregistrarObserver(IIObserver* Observer)
+{
+	Observers.Remove(Observer);
+
+}
+
+void AObjetosObserver::NotificarObservers(int32 EventID)
+{
+	for (IIObserver* Observer : Observers)
+	{
+		if (Observer)
+		{
+			Observer->Actualizar(EventID);
+			UE_LOG(LogTemp, Warning, TEXT("Notificando a observador con ID de evento: %d"), EventID);
+		}
+	}
+}
+
+void AObjetosObserver::Actualizar(int32 EventoID)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Objeto Actualizado con Evento ID: %d"), EventoID);
 
 }
 

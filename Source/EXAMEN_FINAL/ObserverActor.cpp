@@ -3,6 +3,8 @@
 
 #include "ObserverActor.h"
 
+
+
 // Sets default values
 AObserverActor::AObserverActor()
 {
@@ -14,22 +16,21 @@ AObserverActor::AObserverActor()
 void AObserverActor::Actualizar(int32 EventoID)
 {
 
-	UE_LOG(LogTemp, Warning, TEXT(" Observer Notificacion ID"), EventoID);
+    UE_LOG(LogTemp, Warning, TEXT("Evento recibido en ObserverActor con ID: %d"));
 
-
+ 
 }
 
 // Called when the game starts or when spawned
 void AObserverActor::BeginPlay()
 {
-	Super::BeginPlay();
-	
+    Super::BeginPlay();
+
+ 
 }
 
-// Called every frame
 void AObserverActor::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
-
+    Super::Tick(DeltaTime);
 }
 

@@ -1,5 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+// ObserverActor.h
 #pragma once
 
 #include "CoreMinimal.h"
@@ -10,21 +9,20 @@
 UCLASS()
 class EXAMEN_FINAL_API AObserverActor : public AActor, public IIObserver
 {
-	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
-	AObserverActor();
-public:
+    GENERATED_BODY()
 
-	virtual void Actualizar(int32 EventoID) override;
+public:
+    // Sets default values for this actor's properties
+    AObserverActor();
+
+    virtual void Actualizar(int32 EventID) override;
 
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+    // Called when the game starts or when spawned
+    virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+public:
+    // Called every frame
+    virtual void Tick(float DeltaTime) override;
 
 };

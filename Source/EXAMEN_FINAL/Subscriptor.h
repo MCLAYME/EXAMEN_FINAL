@@ -30,9 +30,9 @@ public:
 public:
 	void activarevento();
 	float TiempoDesdeUltimoEvento;
-	float IntervaloEvento; // Intervalo de 5 segundos
+	float IntervaloEvento; 
 	TArray<IIObserver*> Observers;
-	TArray<int32> Eventos; // Almacena hasta 5 eventos
-	int32 ContadorEventos; // Contador para los eventos
+	TArray<int32> Eventos;
+	int32 ContadorEventos; 
 
 };

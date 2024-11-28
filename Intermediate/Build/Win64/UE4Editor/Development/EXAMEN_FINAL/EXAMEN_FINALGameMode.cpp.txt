@@ -19,3 +19,5 @@ C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\U
 C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\UE4Editor\Inc\EXAMEN_FINAL\Subscriptor.generated.h
 C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Source\EXAMEN_FINAL\ObserverActor.h
 C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\UE4Editor\Inc\EXAMEN_FINAL\ObserverActor.generated.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Source\EXAMEN_FINAL\ObjetosObserver.h
+C:\Users\layme\Documents\Unreal Projects\EXAMEN_FINAL\Intermediate\Build\Win64\UE4Editor\Inc\EXAMEN_FINAL\ObjetosObserver.generated.h

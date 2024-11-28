@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeObjetosObserver() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_EXAMEN_FINAL();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	EXAMEN_FINAL_API UClass* Z_Construct_UClass_UIObserver_NoRegister();
 // End Cross Module References
 	void AObjetosObserver::StaticRegisterNativesAObjetosObserver()
 	{
@@ -37,6 +38,7 @@ void EmptyLinkFunctionForGeneratedCodeObjetosObserver() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -53,16 +55,17 @@ void EmptyLinkFunctionForGeneratedCodeObjetosObserver() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AObjetosObserver_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "Mesh" },
-		{ "Comment", "//MALLA PARA EL OBJETO\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "ObjetosObserver.h" },
-		{ "ToolTip", "MALLA PARA EL OBJETO" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AObjetosObserver_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AObjetosObserver, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AObjetosObserver_Statics::NewProp_Mesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AObjetosObserver_Statics::NewProp_Mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AObjetosObserver_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AObjetosObserver_Statics::NewProp_Mesh,
 	};
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AObjetosObserver_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UIObserver_NoRegister, (int32)VTABLE_OFFSET(AObjetosObserver, IIObserver), false },
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AObjetosObserver_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AObjetosObserver>::IsAbstract,
 	};
@@ -73,11 +76,11 @@ void EmptyLinkFunctionForGeneratedCodeObjetosObserver() {}
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_AObjetosObserver_Statics::PropPointers,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_AObjetosObserver_Statics::PropPointers),
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AObjetosObserver_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AObjetosObserver_Statics::Class_MetaDataParams))
 	};
@@ -90,7 +93,7 @@ void EmptyLinkFunctionForGeneratedCodeObjetosObserver() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AObjetosObserver, 4045876037);
+	IMPLEMENT_CLASS(AObjetosObserver, 2146044234);
 	template<> EXAMEN_FINAL_API UClass* StaticClass<AObjetosObserver>()
 	{
 		return AObjetosObserver::StaticClass();

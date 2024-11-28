@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EXAMEN_FINAL.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F9739E7E-1915-45AD-80AC-2388D7C814EE}</UniqueIdentifier>
+      <UniqueIdentifier>{F937E64E-BD0D-46C0-8759-ABFBD845CD38}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EXAMEN_FINAL.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\EXAMEN_FINALEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9C5A90B1-1323-490B-BC0C-1910C9117AA0}</UniqueIdentifier>
+      <UniqueIdentifier>{1D7C3A00-ABDF-4E0B-80A9-167147769779}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\EXAMEN_FINAL">
-      <UniqueIdentifier>{B108CEC1-9E65-4D0D-9B20-BEE13774DA89}</UniqueIdentifier>
+      <UniqueIdentifier>{C56F2096-9038-4F71-9116-9D4E1348B99A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EXAMEN_FINAL\EXAMEN_FINAL.Build.cs">
       <Filter>Source\EXAMEN_FINAL</Filter>
